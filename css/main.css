@@ -8,15 +8,16 @@ nav {
 }
 .sidenav {
   height: 100%; /* Full-height: remove this if you want "auto" height */
-  width: 60px; /* Set the width of the sidebar */
+  width: 120px; /* Set the width of the sidebar */
   position: fixed; /* Fixed Sidebar (stay in place on scroll) */
   z-index: 1; /* Stay on top */
   top: 0; /* Stay at the top */
   left: 0;
-  background-color: #111; /* Black */
   overflow-x: hidden; /* Disable horizontal scroll */
   padding-top: 20px;
-  border-right: 1px solid #d5d5d5;  
+  border-right: 2px solid #d5d5d5; 
+  font-size: 1.5em;
+  line-height: 3em;
 }
 
 nav ul, footer ul {
@@ -41,6 +42,7 @@ h1 {
 }
 h1.name {
     color: #003366;
+    border-bottom: 2px solid #d5d5d5;
 }
 h2 {
     font-size: 1.7em;
@@ -60,7 +62,7 @@ p {
     color: #333;
 }
 footer {
-    border-top: 1px solid #d5d5d5;
+    border-top: 2px solid #d5d5d5;
     font-size: .8em;
 }
 
