@@ -29,10 +29,18 @@ h1 {
 h1.name {
     color: #003366;
 }
-h1.title1 {
+h2 {
+    font-size: 2em;
+    font-family:'Helvetica', 'Arial', 'Sans-Serif';
+}
+.title1 {
     text-align: center;
     color: #004D99;
 }
+.title2 {
+    color: #004080;
+}
+
 p {
     font-size: 1.5em;
     line-height: 1.4em;
