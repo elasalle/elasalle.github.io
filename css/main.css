@@ -29,7 +29,7 @@ h1 {
     font-size: 3em;
     font-family:'Helvetica', 'Arial', 'Sans-Serif';
 }
-h1.title {
+.title1 {
     color : #0F4D8A;
     text-align: center;
 }
