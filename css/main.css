@@ -20,11 +20,8 @@ nav ul li, footer ul li {
 a { /* Color of href */
     text-decoration: none;   
 }
-a:hover {text-decoration: underline;}
 a.blue {color: #0645AD;}
-a.blue:hover {text-decoration: underline;}
 a.grey {color : #999;}
-a.grey:hover {text-decoration: underline;}
 
 
 h1 {
