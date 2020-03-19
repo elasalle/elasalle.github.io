@@ -17,17 +17,22 @@ nav ul li, footer ul li {
     margin-right: 20px;
 }
 
-a {text-decoration: none; color: #333;}
+a {color: #333; text-decoration: none;}
+a.blue {color: #0066CC;}
 a.grey {color: #999999;}
+a:hover { text-decoration: underline;}
 
 
 h1 {
     font-size: 3em;
     font-family:'Helvetica', 'Arial', 'Sans-Serif';
 }
+h1.title {
+    color: #003366;
+}
 h1.title1 {
     text-align: center;
-    color: #0F4D8A;
+    color: #004D99;
 }
 p {
     font-size: 1.5em;
