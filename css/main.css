@@ -22,8 +22,10 @@ a { /* Color of href */
 }
 a:hover {text-decoration: underline;}
 a.blue {color: #0645AD;}
-a.grey:hover {text-decoration: underline;}
+a.blue:hover {text-decoration: underline;}
 a.grey {color : #999;}
+a.grey:hover {text-decoration: underline;}
+
 
 h1 {
     font-size: 3em;
