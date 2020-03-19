@@ -17,11 +17,9 @@ nav ul li, footer ul li {
     margin-right: 20px;
 }
 
-a { /* Color of href */
-    text-decoration: none;   
-}
+a {text-decoration: none;}
 a.blue {color: #0645AD;}
-a.grey {color : #999;}
+a.grey {color: #999999;}
 
 
 h1 {
