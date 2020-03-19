@@ -12,15 +12,12 @@ nav ul li, footer ul li {
     display: inline;
     margin-right: 20px;
 }
-link {
+.link {
     text-decoration: underline;
     color: #0645AD;
 }
-a {
+.grey {
     color: #999
-}
-a:hover {
-    text-decoration: underline;
 }
 h1 {
     font-size: 3em;
