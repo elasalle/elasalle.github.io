@@ -20,9 +20,6 @@ a {
 a:hover {
     text-decoration: underline;
 }
-a.grey {
-    color: #999
-}
 
 h1 {
     font-size: 3em;
