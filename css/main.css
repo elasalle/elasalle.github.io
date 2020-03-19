@@ -17,8 +17,7 @@ nav ul li, footer ul li {
     margin-right: 20px;
 }
 
-a {color: #333; text-decoration: none;}
-a.blue {color: #0066CC;}
+a {color: #0066CC; text-decoration: none;}
 a.grey {color: #999999;}
 a:hover { text-decoration: underline;}
 
@@ -27,7 +26,7 @@ h1 {
     font-size: 3em;
     font-family:'Helvetica', 'Arial', 'Sans-Serif';
 }
-h1.title {
+h1.name {
     color: #003366;
 }
 h1.title1 {
