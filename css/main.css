@@ -1,5 +1,5 @@
 body {
-    margin: 40px auto 40px 210px;
+    margin: 40px auto 40px 30em;
     width: 70%;
 }
 nav {
@@ -8,7 +8,7 @@ nav {
 }
 .sidenav {
   height: 100%; /* Full-height: remove this if you want "auto" height */
-  width: 130px; /* Set the width of the sidebar */
+  width: 20em; /* Set the width of the sidebar */
   position: fixed; /* Fixed Sidebar (stay in place on scroll) */
   z-index: 1; /* Stay on top */
   top: 0; /* Stay at the top */
