@@ -57,6 +57,10 @@ h2 {
     color: #004080;
 }
 
+img {
+  border-radius: 50%;
+}
+
 p {
     font-size: 1.3em;
     line-height: 1.4em;
