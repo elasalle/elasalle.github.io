@@ -67,6 +67,12 @@ p {
     line-height: 1.4em;
     color: #333;
 }
+p.subname {
+    font-size: 1.3em;
+    line-height: 1.4em;
+    color: #333;
+	margin-block-start: 0;
+}
 footer {
     border-top: 2px solid #a17345;
     font-size: 1em;
