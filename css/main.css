@@ -37,7 +37,7 @@ nav ul li, footer ul li {
 }
 
 a {color: #0066CC; text-decoration: none;}
-a.sidenav { color: #004080 }
+a.side { color: #004080 }
 a.grey {color: #93806c;}
 a:hover { text-decoration: underline;}
 
@@ -49,7 +49,7 @@ h1 {
 h1.name {
     color: #004080;
     border-bottom: 2px solid #a17345;
-    margin-block-end: 0;
+	margin-block-end: 0;
 }
 h2 {
     font-size: 1.7em;
