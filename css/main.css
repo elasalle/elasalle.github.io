@@ -82,6 +82,16 @@ p.subname {
 	margin-block-start: 0;
 	margin-block-end: 0;
 }
+
+td{
+	font-size: 1.3em;
+}
+td.top{
+	vertical-align: top;
+}
+td.right{
+	text-align: right;
+}
 footer {
     border-top: 2px solid #a17345;
     font-size: 1em;
