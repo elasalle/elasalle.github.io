@@ -32,7 +32,12 @@ nav ul li, footer ul li {
     margin-right: 20px;
 }
 
+.noitem {
+	list-style-type: none;
+}
+
 a {color: #0066CC; text-decoration: none;}
+a.sidenav { color: #004080 }
 a.grey {color: #93806c;}
 a:hover { text-decoration: underline;}
 
@@ -42,7 +47,7 @@ h1 {
     font-family:'Helvetica', 'Arial', 'Sans-Serif';
 }
 h1.name {
-    color: #003366;
+    color: #004080;
     border-bottom: 2px solid #a17345;
 	margin-block-end: 0;
 }
@@ -52,7 +57,7 @@ h2 {
 }
 .title1 {
     text-align: center;
-    color: #004D99;
+    color: #004080;
 }
 .title2 {
     color: #004080;
