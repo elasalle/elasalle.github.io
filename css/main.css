@@ -49,7 +49,7 @@ h1 {
 h1.name {
     color: #004080;
     border-bottom: 2px solid #a17345;
-	margin-block-end: 0;
+	  margin-block-end: 0;
 }
 h2 {
     font-size: 1.7em;
@@ -63,9 +63,9 @@ h2 {
     color: #004080;
 }
 h3 {
+    color: #333;
     font-size: 1.3em;
     line-height: 1.4em;
-    color: #333;
 }
 
 img {
