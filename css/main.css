@@ -16,7 +16,7 @@ nav {
   overflow-x: hidden; /* Disable horizontal scroll */
   padding-top: 55px;
   padding-left: 20px;
-  border-right: 2px solid #a17345; 
+  border-right: 2px solid #a17345;
   font-size: 1.5em;
   line-height: 3em;
 }
@@ -83,6 +83,10 @@ p.subname {
 	margin-block-end: 0;
 }
 
+table {
+  width: 100%;
+}
+
 td{
 	font-size: 1.3em;
 }
@@ -99,8 +103,8 @@ footer {
 
 .normalsize { font-size: 1.3em;}
 
-ul.posts { 
-    margin: 20px auto 40px; 
+ul.posts {
+    margin: 20px auto 40px;
     font-size: 1.5em;
 }
 
