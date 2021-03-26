@@ -120,9 +120,10 @@ ul.posts li {
 
 p.abstracttext {
   margin-top: 0;
-  margin-left: 3em;
-  width: 50%;
-  background-color: lightgray;
+  margin-left: 0.8em;
+  border-left: 1px solid #0066CC;
+  padding-left: 1em;
+  font-style: italic;
 }
 button.showhide {
   border-style : hidden;
