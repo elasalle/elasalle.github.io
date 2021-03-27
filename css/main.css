@@ -131,6 +131,7 @@ button.showhide {
   color : #0066CC;
   background-color: white;
   vertical-align: middle;
+  font: inherit;
 }
 div.arrow-right {
   width: 0;
