@@ -133,6 +133,14 @@ button.showhide {
   vertical-align: middle;
   font: inherit;
 }
+.showhide span.dots {
+  font: inherit;
+  opacity: 0;
+  transition: 0.5s;
+}
+.showhide:hover span.dots{
+  opacity: 1;
+}
 div.arrow-right {
   width: 0;
   height: 0;
