@@ -71,6 +71,9 @@ h3 {
 img {
     border-radius: 55%;
 }
+img.noradius {
+    border-radius : 0%;
+}
 
 p {
     display: block;
@@ -100,6 +103,10 @@ td.top{
 td.right{
 	text-align: right;
 }
+td.nopadding{
+    padding-bottom : 0em;
+}
+
 footer {
     border-top: 2px solid #a17345;
     font-size: 1em;
