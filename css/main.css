@@ -41,6 +41,11 @@ a.side { color: #004080 }
 a.grey {color: #93806c;}
 a:hover { text-decoration: underline;}
 
+.icon {
+    color: #004080;
+    font-size : 1.2em;    
+}
+
 
 h1 {
     font-size: 2.5em;
