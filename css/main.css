@@ -38,12 +38,14 @@ nav ul li, footer ul li {
 
 a {color: #0066CC; text-decoration: none;}
 a.side { color: #004080 }
-a.grey {color: #93806c;}
 a:hover { text-decoration: underline;}
+
+
+.grey {color: #93806c;}
 
 .icon {
     color: #004080;
-    font-size : 1.2em;    
+    font-size : 1.3em;
 }
 
 
@@ -57,7 +59,7 @@ h1.name {
 	  margin-block-end: 0;
 }
 h2 {
-    font-size: 1.7em;
+    font-size: 1.5em;
     font-family:'Helvetica', 'Arial', 'Sans-Serif';
 }
 .title1 {
@@ -117,7 +119,7 @@ footer {
     font-size: 1em;
 }
 
-.normalsize { font-size: 1.3em;}
+.normalsize { font-size: 1.1em;}
 
 ul.posts {
     margin: 20px auto 40px;
