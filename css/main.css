@@ -173,3 +173,38 @@ div.arrow-top {
   display: inline-block;
   margin-right: .2em;
 }
+
+
+div.pagenav{
+  margin-top: 1.5em;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.button {
+  border: none;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 1.5em;
+  font-weight: bold;
+  font-family:'Helvetica', 'Arial', 'Sans-Serif';
+  margin: 6px 8px;
+  border-radius: 12px;
+  transition-duration: 0.4s;
+  cursor: pointer;
+}
+
+.button_pagenav {
+  color: #004080;
+  background-color: white;
+  border: 2px solid #a17345;
+}
+
+.button_pagenav:hover {
+  color: white;
+  text-decoration: none;
+  background-color: #bd9d7c;
+}
