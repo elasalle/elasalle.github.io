@@ -61,6 +61,7 @@ h1.name {
 h2 {
     font-size: 1.5em;
     font-family:'Helvetica', 'Arial', 'Sans-Serif';
+	  margin-block-end: 0.2em;
 }
 .title1 {
     text-align: center;
@@ -120,6 +121,10 @@ footer {
 }
 
 .normalsize { font-size: 1.1em;}
+
+ul {
+    margin-block-start : 0;
+}
 
 ul.posts {
     margin: 20px auto 40px;
