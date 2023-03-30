@@ -143,6 +143,7 @@ p.abstracttext {
   border-left: 1px solid #0066CC;
   padding-left: 1em;
   font-style: italic;
+  text-align: justify;
 }
 button.showhide {
   border-style : hidden;
