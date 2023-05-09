@@ -71,9 +71,9 @@ h2 {
     color: #004080;
 }
 h3 {
-    color: #333;
     font-size: 1.3em;
-    line-height: 1.4em;
+    margin-top: 0.2em;
+    margin-block-end: 0em;
 }
 
 img {
