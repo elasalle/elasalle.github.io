@@ -22,6 +22,30 @@ title: Etienne Lasalle, Research
   <table class="normalsize">
     <tr>
     <td class="nopadding top" width=150>
+    <a href="https://arxiv.org/pdf/2311.04673.pdf">
+    <img class="noradius" src="fig/compr_recov_theta.PNG" width=150 height=100></a>
+    </td>
+    <td class="nopadding top">
+    <b>Compressive Recovery of Sparse Precision Matrices,</b> 2023. <br>
+    With T. Vayer, R. Gribonval, P. Gonçalves<br>
+    [<a href="https://arxiv.org/pdf/2311.04673.pdf">arxiv</a>]
+        <button class="showhide art_arbstr_3" onclick="switchDisplayByClassName('art_arbstr_3')" style="display: block;"><div class="arrow-right"></div>Show Abstract<span class="dots">...</span></button>
+        <button class="showhide art_arbstr_3" onclick="switchDisplayByClassName('art_arbstr_3')" style="display : none;"><div class="arrow-top"></div>Hide Abstract</button>
+        <p class="abstracttext art_arbstr_3" style="display : none;">
+          We consider the problem of learning a graph modeling the statistical relations of the $d$ variables of a dataset with $n$ samples $\mathbf{X} \in \mathbb{R}^{n \times d}$.
+          Standard approaches amount to searching for a precision matrix $\boldsymbol\Theta$ representative of a Gaussian graphical model that adequately explains the data.
+          However, most maximum likelihood-based estimators usually require storing the $d^{2}$ values of the empirical covariance matrix, which can become prohibitive in a high-dimensional setting. <br>
+          In this work, we adopt a ‘‘compressive'' viewpoint and aim to estimate a sparse $\boldsymbol\Theta$ from a \emph{sketch} of the data, \textit{i.e.} a low-dimensional vector of size $m \ll d^{2}$ carefully designed from $\mathbf{X}$ using nonlinear random features.
+          Under certain assumptions on the spectrum of $\boldsymbol\Theta$ (or its condition number), we show that it is possible to estimate it from a sketch of size $m=\Omega\left((d+2k)\log(d)\right)$ where $k$ is the maximal number of edges of the underlying graph.
+          These information-theoretic guarantees are inspired by compressed sensing theory and involve restricted isometry properties and instance optimal decoders.
+          We investigate the possibility of achieving practical recovery with an iterative algorithm based on the graphical lasso, viewed as a specific denoiser.
+          We compare our approach and graphical lasso on synthetic datasets, demonstrating its favorable performance even when the dataset is compressed.
+        </p>
+    </td>
+    </tr>
+
+    <tr>
+    <td class="nopadding top" width=150>
     <a href="https://arxiv.org/pdf/2303.04752.pdf">
     <img class="noradius" src="fig/paquet20000.jpg" width=150 height=100></a>
     </td>
@@ -44,13 +68,13 @@ title: Etienne Lasalle, Research
 
 			<tr>
 			<td class="nopadding top" width=150>
-			<a href="https://arxiv.org/abs/2109.13213">
+			<a href="https://arxiv.org/pdf/2109.13213.pdf">
 			<img class="noradius" src="fig/animated_slow.gif" width=150 height=100></a>
 			</td>
 			<td class="nopadding top">
 			<b>Heat diffusion distance processes: a statistically founded method to analyze graph data sets,</b> 2023. <br>
       Published in <i>J Appl. and Comput. Topology</i> (SI : <i>Data Science on Graphs</i>). <br>
-			[<a href="https://rdcu.be/dctmr">journal</a>] [<a href="https://arxiv.org/abs/2109.13213">arxiv</a>]
+			[<a href="https://rdcu.be/dctmr">journal</a>] [<a href="https://arxiv.org/pdf/2109.13213.pdf">arxiv</a>]
           <button class="showhide art_arbstr_1" onclick="switchDisplayByClassName('art_arbstr_1')" style="display: block;"><div class="arrow-right"></div>Show Abstract<span class="dots">...</span></button>
           <button class="showhide art_arbstr_1" onclick="switchDisplayByClassName('art_arbstr_1')" style="display : none;"><div class="arrow-top"></div>Hide Abstract</button>
           <p class="abstracttext art_arbstr_1" style="display : none;">
