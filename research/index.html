@@ -32,11 +32,11 @@ title: Etienne Lasalle, Research
         <button class="showhide art_arbstr_3" onclick="switchDisplayByClassName('art_arbstr_3')" style="display: block;"><div class="arrow-right"></div>Show Abstract<span class="dots">...</span></button>
         <button class="showhide art_arbstr_3" onclick="switchDisplayByClassName('art_arbstr_3')" style="display : none;"><div class="arrow-top"></div>Hide Abstract</button>
         <p class="abstracttext art_arbstr_3" style="display : none;">
-          We consider the problem of learning a graph modeling the statistical relations of the $d$ variables of a dataset with $n$ samples $\mathbf{X} \in \mathbb{R}^{n \times d}$.
-          Standard approaches amount to searching for a precision matrix $\boldsymbol\Theta$ representative of a Gaussian graphical model that adequately explains the data.
-          However, most maximum likelihood-based estimators usually require storing the $d^{2}$ values of the empirical covariance matrix, which can become prohibitive in a high-dimensional setting. <br>
-          In this work, we adopt a ‘‘compressive'' viewpoint and aim to estimate a sparse $\boldsymbol\Theta$ from a \emph{sketch} of the data, \textit{i.e.} a low-dimensional vector of size $m \ll d^{2}$ carefully designed from $\mathbf{X}$ using nonlinear random features.
-          Under certain assumptions on the spectrum of $\boldsymbol\Theta$ (or its condition number), we show that it is possible to estimate it from a sketch of size $m=\Omega\left((d+2k)\log(d)\right)$ where $k$ is the maximal number of edges of the underlying graph.
+          We consider the problem of learning a graph modeling the statistical relations of the \(d\) variables of a dataset with \(n\) samples \(\mathbf{X} \in \mathbb{R}^{n \times d}\).
+          Standard approaches amount to searching for a precision matrix \(\boldsymbol\Theta\) representative of a Gaussian graphical model that adequately explains the data.
+          However, most maximum likelihood-based estimators usually require storing the \(d^{2}\) values of the empirical covariance matrix, which can become prohibitive in a high-dimensional setting. <br>
+          In this work, we adopt a ‘‘compressive'' viewpoint and aim to estimate a sparse \(\boldsymbol\Theta\) from a <em>sketch</em> of the data, <em>i.e.,</em> a low-dimensional vector of size \(m \ll d^{2}\) carefully designed from \(\mathbf{X}\) using nonlinear random features.
+          Under certain assumptions on the spectrum of \(\boldsymbol\Theta\) (or its condition number), we show that it is possible to estimate it from a sketch of size \(m=\Omega\left((d+2k)\log(d)\right)\) where \(k\) is the maximal number of edges of the underlying graph.
           These information-theoretic guarantees are inspired by compressed sensing theory and involve restricted isometry properties and instance optimal decoders.
           We investigate the possibility of achieving practical recovery with an iterative algorithm based on the graphical lasso, viewed as a specific denoiser.
           We compare our approach and graphical lasso on synthetic datasets, demonstrating its favorable performance even when the dataset is compressed.
@@ -56,11 +56,9 @@ title: Etienne Lasalle, Research
         <button class="showhide art_arbstr_2" onclick="switchDisplayByClassName('art_arbstr_2')" style="display: block;"><div class="arrow-right"></div>Show Abstract<span class="dots">...</span></button>
         <button class="showhide art_arbstr_2" onclick="switchDisplayByClassName('art_arbstr_2')" style="display : none;"><div class="arrow-top"></div>Hide Abstract</button>
         <p class="abstracttext art_arbstr_2" style="display : none;">
-          We consider the problem of finding the initial vertex (Adam) in a Barab&aacute;si-Albert tree process <span class="math inline">(<em>T</em>(<em>n</em>) : <em>n</em> &ge; 1)</span> at large times.
-          More precisely, given &epsilon;>0, one wants to output a subset <span class="math inline"><em>P</em><sub><em>&epsilon;</em></sub>(<em>n</em>)</span> of  vertices of   <span class="math inline"><em>T</em>(<em>n</em>)</span>
-          so that the initial vertex belongs to <span class="math inline"><em>P</em><sub><em>&epsilon;</em></sub>(<em>n</em>)</span> with probability at least <span class="math inline">1-<em>&epsilon;</em></span> when <em>n</em> is large.
-          It has been shown by Bubeck, Devroye & Lugosi, refined later by Banerjee & Huang, that one needs to output at least <span class="math inline"><em>&epsilon;</em> <sup>-1 + <em>o</em>(1)</sup> </span>
-          and at most <span class="math inline"><em>&epsilon;</em> <sup>-2 + <em>o</em>(1)</sup> </span> vertices to succeed.
+          We consider the problem of finding the initial vertex (Adam) in a Barabasi--Albert tree process  \( (\mathcal{T}(n) : n \geq 1) \) at large times.
+          More precisely, given \( \varepsilon>0 \), one wants to output a subset \(\mathcal{P}_{ \varepsilon}(n) \) of  vertices of  \(\mathcal{T}(n)\) so that the initial vertex belongs  to \(\mathcal{P}_ \varepsilon(n)\) with probability at least \(1- \varepsilon\) when \(n\) is large.
+          It has been shown by Bubeck, Devroye & Lugosi (2017), refined later by Banerjee & Huang (2023),  that one needs to output at least \(\varepsilon^{-1 + o(1)}\)  and at most \(\varepsilon^{-2 + o(1)}\) vertices to succeed.
           We prove that the exponent in the lower bound is sharp and the key idea is that Adam is either a ``large degree" vertex or is a neighbor of a ``large degree" vertex (Eve).
         </p>
     </td>
@@ -95,6 +93,23 @@ title: Etienne Lasalle, Research
 
   <h2 id="talks" class="title2">Talks</h2>
   <ul class="normalsize">
+  <li>November, 2023 - ENS de Lyon - <a href="https://gdr-mia.math.cnrs.fr/events/dimreduc/">RT MIA Workshop</a>: Dimension Reducetion for Learning and Visualization. <br>
+    <b>Compressive Recovery of Sparse Precision Matrices</b>. <br>
+    <button class="showhide abstract15" onclick="switchDisplayByClassName('abstract15')" style="display: block;"><div class="arrow-right"></div>Show Abstract<span class="dots">...</span></button>
+    <button class="showhide abstract15" onclick="switchDisplayByClassName('abstract15')" style="display : none;"><div class="arrow-top"></div>Hide Abstract</button>
+    <p class="abstracttext abstract15" style="display : none;">
+      We consider the problem of learning a graph modeling the statistical relations of the \(d\) variables of a dataset with \(n\) samples.
+      Standard approaches amount to searching for a precision matrix representative of a Gaussian graphical model that adequately explains the data.
+      However, most maximum likelihood-based estimators usually require storing the \(d^2\) values of the empirical covariance matrix, which can become prohibitive in a high-dimensional setting. <br>
+      In this talk, we adopt a “compressive” viewpoint and aim to estimate a sparse precision matrix from a sketch of the data, i.e., a low-dimensional vector of size \(m\ll d^2\) carefully designed from the data using nonlinear random features (e.g., rank-one projections).
+      Under certain spectral assumptions, we show that it is possible to recover the precision matrix from a sketch of size \(m=\Omega\left((d+2k)\log(d)\right)\) where \(k\) is the maximal number of edges of the underlying graph.
+      These information-theoretic guarantees are inspired by the compressed sensing theory.
+      We investigate the possibility of achieving practical recovery with an iterative algorithm based on the graphical lasso, viewed as a specific denoiser.
+      We compare our approach and the graphical lasso on synthetic datasets, demonstrating its favorable performance even when the dataset is compressed. <br>
+      Joint work with : Titouan Vayer, Rémi Gribonval and Paulo Gonçalves.
+    </p>
+  </li>
+  <br>
   <li>May, 2023 - LJK Grenoble - Seminar of the <a href="https://www-ljk.imag.fr/spip.php?article6">DATA department</a>. <br>
     <b>Statistical comparison of graph-structured data and its application to distribution shift detection</b>. <br>
     <button class="showhide abstract14" onclick="switchDisplayByClassName('abstract14')" style="display: block;"><div class="arrow-right"></div>Show Abstract<span class="dots">...</span></button>
