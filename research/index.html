@@ -98,6 +98,42 @@ title: Etienne Lasalle, Research
 
   <h2 id="talks" class="title2">Talks</h2>
   <ul class="normalsize">
+    <li>November, 2024 - Rennes - Malt seminar. <br>
+      <b>Statistical comparison of graph-structured data and its application to distribution shift detection</b>.
+      <button class="showhide abstract19" onclick="switchDisplayByClassName('abstract19')" style="display: block;"><div class="arrow-right"></div>Show Abstract<span class="dots">...</span></button>
+      <button class="showhide abstract19" onclick="switchDisplayByClassName('abstract19')" style="display : none;"><div class="arrow-top"></div>Hide Abstract</button>
+      <p class="abstracttext abstract19" style="display : none;">
+        When working with weighted graphs, one can interpret weights as the thermal conductivity of edges. 
+        Given initial conditions, one can use the way heat diffuses to compare graphs. 
+        Choosing relevant and informative diffusion times is often essential and challenging. 
+        To circumvent this issue, we choose to take into account the whole diffusion process. 
+        We define real-valued processes indexed by [0, T] for some T > 0, representing the comparisons for all diffusion times. 
+        Using tools from topological data analysis, we are able to compare graphs with unknown node correspondence or even graphs with different sizes.
+        In this talk, I will introduce these processes and present their statistical properties. 
+        From these results, we will see how we can construct consistent two-sample tests. 
+        Then, I will present some applications for the detection of distribution shifts in the context of neural networks by using activation graphs.
+      </p>
+    </li>
+    <br>
+
+    <li>September, 2024 - Nantes - <a href="https://sims.ls2n.fr/">SIMS</a> seminar. <br>
+      <b>Compressive Recovery of Sparse Precision Matrices</b>. <br>
+      <button class="showhide abstract18" onclick="switchDisplayByClassName('abstract18')" style="display: block;"><div class="arrow-right"></div>Show Abstract<span class="dots">...</span></button>
+      <button class="showhide abstract18" onclick="switchDisplayByClassName('abstract18')" style="display : none;"><div class="arrow-top"></div>Hide Abstract</button>
+      <p class="abstracttext abstract18" style="display : none;">
+        We consider the problem of learning a graph modeling the statistical relations of the \(d\) variables of a dataset with \(n\) samples.
+        Standard approaches amount to searching for a precision matrix representative of a Gaussian graphical model that adequately explains the data.
+        However, most maximum likelihood-based estimators usually require storing the \(d^2\) values of the empirical covariance matrix, which can become prohibitive in a high-dimensional setting. <br>
+        In this talk, we adopt a “compressive” viewpoint and aim to estimate a sparse precision matrix from a sketch of the data, i.e., a low-dimensional vector of size \(m\ll d^2\) carefully designed from the data using nonlinear random features (e.g., rank-one projections).
+        Under certain spectral assumptions, we show that it is possible to recover the precision matrix from a sketch of size \(m=\Omega\left((d+2k)\log(d)\right)\) where \(k\) is the maximal number of edges of the underlying graph.
+        These information-theoretic guarantees are inspired by the compressed sensing theory.
+        We investigate the possibility of achieving practical recovery with an iterative algorithm based on the graphical lasso, viewed as a specific denoiser.
+        We compare our approach and the graphical lasso on synthetic datasets, demonstrating its favorable performance even when the dataset is compressed. <br>
+        Joint work with : Titouan Vayer, Rémi Gribonval and Paulo Gonçalves.
+      </p>
+    </li>
+    <br>
+
     <li>June, 2024 - Copenhagen - <a href="https://popnets.wordpress.com/">Popnets Workshop</a>. <br>
       <b>Statistical comparison of graph-structured data and its application to distribution shift detection</b>.
       <button class="showhide abstract17" onclick="switchDisplayByClassName('abstract17')" style="display: block;"><div class="arrow-right"></div>Show Abstract<span class="dots">...</span></button>
