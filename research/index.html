@@ -26,6 +26,27 @@ title: Etienne Lasalle, Research
   <table class="normalsize">
     <tr>
     <td class="nopadding top" width=150>
+    <img class="noradius" src="fig/pasco.gif" width=150 height=100>
+    </td>
+    <td class="nopadding top">
+    <b>PASCO (PArallel Structured COarsening): an overlay to speed up graph clustering algorithms</b> 2024. <br>
+    With R. Vaudaine, T. Vayer, P.Borgnat, R. Gribonval, P. Gonçalves, M. Karsai<br>
+    <!-- [<a href="https://arxiv.org/pdf/2311.04673.pdf">arxiv</a>] -->
+        <button class="showhide art_arbstr_4" onclick="switchDisplayByClassName('art_arbstr_4')" style="display: block;"><div class="arrow-right"></div>Show Abstract<span class="dots">...</span></button>
+        <button class="showhide art_arbstr_4" onclick="switchDisplayByClassName('art_arbstr_4')" style="display : none;"><div class="arrow-top"></div>Hide Abstract</button>
+        <p class="abstracttext art_arbstr_4" style="display : none;">
+          Clustering the nodes of a graph is a cornerstone of graph analysis and has been extensively studied. However, some popular methods are not suitable for very large graphs: e.g., spectral clustering requires the computation of the spectral decomposition of the Laplacian matrix, which is not applicable for large graphs with a large number of communities. This work introduces PASCO, an overlay that accelerates clustering algorithms. Our method consists of three steps: 
+          1- We compute several independent small graphs representing the input graph by applying an efficient and structure-preserving coarsening algorithm. 
+          2- A clustering algorithm is run in parallel onto each small graph and provides several partitions of the initial graph. 
+          3- These partitions are aligned and combined with an optimal transport method to output the final partition. 
+          The PASCO framework is based on two key contributions: a novel global algorithm structure designed to enable parallelization and a fast, empirically validated graph coarsening algorithm that preserves structural properties.
+          We demonstrate the strong performance of PASCO in terms of computational efficiency, structural preservation, and output partition quality, evaluated on both synthetic and real-world graph datasets.
+        </p>
+    </td>
+    </tr>
+
+    <tr>
+    <td class="nopadding top" width=150>
     <a href="https://arxiv.org/pdf/2311.04673.pdf">
     <img class="noradius" src="fig/compr_recov_theta.PNG" width=150 height=100></a>
     </td>
