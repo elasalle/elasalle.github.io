@@ -121,6 +121,25 @@ title: Etienne Lasalle, Research
 
   <h2 id="talks" class="title2">Talks</h2>
   <ul class="normalsize">
+    <li>December, 2024 - Rennes - <a href="https://team.inria.fr/compact/">COMPACT</a> seminar. <br>
+      <b>Compressive Recovery of Sparse Precision Matrices</b>. <br>
+      <button class="showhide abstract20" onclick="switchDisplayByClassName('abstract20')" style="display: block;"><div class="arrow-right"></div>Show Abstract<span class="dots">...</span></button>
+      <button class="showhide abstract20" onclick="switchDisplayByClassName('abstract20')" style="display : none;"><div class="arrow-top"></div>Hide Abstract</button>
+      <p class="abstracttext abstract20" style="display : none;">
+        We consider the problem of learning a graph modeling the statistical relations of the \(d\) variables of a dataset with \(n\) samples.
+        Standard approaches amount to searching for a precision matrix representative of a Gaussian graphical model that adequately explains the data.
+        However, most maximum likelihood-based estimators usually require storing the \(d^2\) values of the empirical covariance matrix, which can become prohibitive in a high-dimensional setting. <br>
+        In this talk, we adopt a “compressive” viewpoint and aim to estimate a sparse precision matrix from a sketch of the data, i.e., a low-dimensional vector of size \(m\ll d^2\) carefully designed from the data using nonlinear random features (e.g., rank-one projections).
+        Under certain spectral assumptions, we show that it is possible to recover the precision matrix from a sketch of size \(m=\Omega\left((d+2k)\log(d)\right)\) where \(k\) is the maximal number of edges of the underlying graph.
+        These information-theoretic guarantees are inspired by the compressed sensing theory.
+        We investigate the possibility of achieving practical recovery with an iterative algorithm based on the graphical lasso, viewed as a specific denoiser.
+        We compare our approach and the graphical lasso on synthetic datasets, demonstrating its favorable performance even when the dataset is compressed. <br>
+        Joint work with : Titouan Vayer, Rémi Gribonval and Paulo Gonçalves.
+      </p>
+    </li>
+    <br>
+
+
     <li>November, 2024 - Rennes - Malt seminar. <br>
       <b>Statistical comparison of graph-structured data and its application to distribution shift detection</b>.
       <button class="showhide abstract19" onclick="switchDisplayByClassName('abstract19')" style="display: block;"><div class="arrow-right"></div>Show Abstract<span class="dots">...</span></button>
@@ -282,7 +301,7 @@ title: Etienne Lasalle, Research
   </p>
   </li>
   <br>
-  <li>June, 2022 - Orsay - <a href="https://www.inria.fr/fr/celeste">Celeste</a> seminar.<br>
+  <!-- <li>June, 2022 - Orsay - <a href="https://www.inria.fr/fr/celeste">Celeste</a> seminar.<br>
   <b>Heat diffusion distance processes for graphs and their application to distribution shift detection.</b><br>
     <button class="showhide abstract8" onclick="switchDisplayByClassName('abstract8')" style="display: block;"><div class="arrow-right"></div>Show Abstract<span class="dots">...</span></button>
     <button class="showhide abstract8" onclick="switchDisplayByClassName('abstract8')" style="display : none;"><div class="arrow-top"></div>Hide Abstract</button>
@@ -291,7 +310,7 @@ title: Etienne Lasalle, Research
       In this talk, I will introduce these processes and present their statistical properties. From these results, we will see how we can construct consistent two-sample tests. Then I will present some applications to the detection of distribution shifts in the context of neural networks by using activation graphs.
   </p>
   </li>
-  <br>
+  <br> -->
   <li>May, 2022 - Orsay - Working group of the Probability-Statistics team.<br>
   Presentation of <b>Density estimation from unweighted k-nearest neighbor graphs: a roadmap</b> [<a href="https://proceedings.neurips.cc/paper/2013/file/eae27d77ca20db309e056e3d2dcd7d69-Paper.pdf">article</a>].<br>
   With <a href="https://sites.google.com/view/acontat/">Alice Contat</a> and <a href="https://www.imo.universite-paris-saclay.fr/~curien/index.html">Nicolas Curien</a>.<br>
@@ -360,7 +379,7 @@ Presentation of <b>Identifying the deviator</b> [<a href="https://arxiv.org/abs/
       </p>
     </li>
   <br>
-    <li>Mar, 2021 - U. Paris-Saclay - <a href="https://www.imo.universite-paris-saclay.fr/en/activities/seminars-events/">vulgarization seminar</a>  <br>
+    <!-- <li>Mar, 2021 - U. Paris-Saclay - <a href="https://www.imo.universite-paris-saclay.fr/en/activities/seminars-events/">vulgarization seminar</a>  <br>
     <b>Gaussian approximations for random functions.</b> - [<a href="slides/2021_03_17_semdoct.pdf">slides</a>]<br>
       <button class="showhide abstract1" onclick="switchDisplayByClassName('abstract1')" style="display: block;"><div class="arrow-right"></div>Show Abstract<span class="dots">...</span></button>
       <button class="showhide abstract1" onclick="switchDisplayByClassName('abstract1')" style="display : none;"><div class="arrow-top"></div>Hide Abstract</button>
@@ -374,7 +393,7 @@ Presentation of <b>Identifying the deviator</b> [<a href="https://arxiv.org/abs/
         as well as Zaitsev's results for the multidimensional case and Koltchinskii's results for general empirical processes.
         The end of this presentation concerns my thesis subject and its link with the gaussian approximation problem for random functions.
       </p>
-    </li>
+    </li> -->
   </ul>
 
   <h2 id="material" class="title2">Material</h2>
