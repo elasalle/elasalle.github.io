@@ -91,7 +91,14 @@ p {
     margin-block-end: 0.5em;
     line-height: 1.4em;
     color: #333;
+    text-align: justify;
 }
+
+P.center {
+    margin-left: 4em;
+    margin-right: 4em;
+}
+
 .nobottommargin {
     margin-block-end: 0;
 }
@@ -145,7 +152,6 @@ p.abstracttext {
   border-left: 1px solid #0066CC;
   padding-left: 1em;
   font-style: italic;
-  text-align: justify;
 }
 button.showhide {
   border-style : hidden;
