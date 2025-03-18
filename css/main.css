@@ -1,6 +1,7 @@
 body {
     margin: 40px auto 40px 11em;
     width: 70%;
+    font-family: 'Helvetica', 'Arial', 'Sans-Serif';
 }
 nav {
     border-top: 1px solid #d5d5d5;
@@ -63,7 +64,8 @@ h1.name {
 h2 {
     font-size: 1.5em;
     font-family:'Helvetica', 'Arial', 'Sans-Serif';
-	  margin-block-end: 0.2em;
+	margin-block-end: 0.2em;
+    scroll-margin-top: 4.5em; /* Adjust based on the height of .pagenav */
 }
 .title1 {
     text-align: center;
@@ -129,7 +131,7 @@ footer {
     font-size: 1em;
 }
 
-.normalsize { font-size: 1.1em;}
+.normalsize { font-size: 1em;}
 
 ul {
     margin-block-start : 0;
@@ -188,12 +190,20 @@ div.arrow-top {
   margin-right: .2em;
 }
 
+div.container{
+    overflow: visible;
+}
 
 div.pagenav{
-  margin-top: 1.5em;
+  position: sticky;
+  top: 0;
+  background-color: white;
+  padding-top: 1.5em;
+  padding-bottom: 1em;
   width: 100%;
   display: flex;
   justify-content: center;
+  z-index: 1000; /* Ensures it stays above other content */
 }
 
 .button {
