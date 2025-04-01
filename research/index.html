@@ -141,6 +141,25 @@ title: Etienne Lasalle, Research
 
   <h2 id="talks" class="title2">Talks</h2>
   <ul class="normalsize">
+    <li>April, 2025 - Nantes - Applied mathematics seminar, <a href="https://www.math.sciences.univ-nantes.fr/">LMJL</a>. <br>
+      <b>Compressive Recovery of Sparse Precision Matrices</b>. <br>
+      <button class="showhide abstract23" onclick="switchDisplayByClassName('abstract23')" style="display: block;"><div class="arrow-right"></div>Show Abstract<span class="dots">...</span></button>
+      <button class="showhide abstract23" onclick="switchDisplayByClassName('abstract23')" style="display : none;"><div class="arrow-top"></div>Hide Abstract</button>
+      <p class="abstracttext abstract23" style="display : none;">
+        We consider the problem of learning a graph modeling the statistical relations of the \(d\) variables of a dataset with \(n\) samples.
+        Standard approaches amount to searching for a precision matrix representative of a Gaussian graphical model that adequately explains the data.
+        However, most maximum likelihood-based estimators usually require storing the \(d^2\) values of the empirical covariance matrix, which can become prohibitive in a high-dimensional setting. <br>
+        In this talk, we adopt a “compressive” viewpoint and aim to estimate a sparse precision matrix from a sketch of the data, i.e., a low-dimensional vector of size \(m\ll d^2\) carefully designed from the data using nonlinear random features (e.g., rank-one projections).
+        Under certain spectral assumptions, we show that it is possible to recover the precision matrix from a sketch of size \(m=\Omega\left((d+2k)\log(d)\right)\) where \(k\) is the maximal number of edges of the underlying graph.
+        These information-theoretic guarantees are inspired by the compressed sensing theory.
+        We investigate the possibility of achieving practical recovery with an iterative algorithm based on the graphical lasso, viewed as a specific denoiser.
+        We compare our approach and the graphical lasso on synthetic datasets, demonstrating its favorable performance even when the dataset is compressed. <br>
+        Joint work with : Titouan Vayer, Rémi Gribonval and Paulo Gonçalves.
+      </p>
+    </li>
+    <br>
+
+
     <li>March, 2025 - Rennes - Statistics seminar, <a href="https://irmar.univ-rennes.fr/"> IRMAR</a>. <br>
       <b>Compressive Recovery of Sparse Precision Matrices</b>. <br>
       <button class="showhide abstract22" onclick="switchDisplayByClassName('abstract22')" style="display: block;"><div class="arrow-right"></div>Show Abstract<span class="dots">...</span></button>
