@@ -164,6 +164,22 @@ title: Etienne Lasalle, Research
 
   <h2 id="talks" class="title2">Talks</h2>
   <ul class="normalsize">
+    <li>September, 2025 - Porto, Portugal - <a href="https://ecmlpkdd.org/2025/">ECML 2025</a>.<br>
+      <b>PASCO (PArallel Structured COarsening): an overlay to speed up graph clustering algorithms</b>. <br>
+      <button class="showhide abstract25" onclick="switchDisplayByClassName('abstract25')" style="display: block;"><div class="arrow-right"></div>Show Abstract<span class="dots">...</span></button>
+      <button class="showhide abstract25" onclick="switchDisplayByClassName('abstract25')" style="display : none;"><div class="arrow-top"></div>Hide Abstract</button>
+      <p class="abstracttext abstract25" style="display : none;">
+        Clustering the nodes of a graph is a cornerstone of graph analysis and has been extensively studied. However, some popular methods are not suitable for very large graphs: e.g., spectral clustering requires the computation of the spectral decomposition of the Laplacian matrix, which is not applicable for large graphs with a large number of communities. This work introduces PASCO, an overlay that accelerates clustering algorithms. Our method consists of three steps: 
+          1- We compute several independent small graphs representing the input graph by applying an efficient and structure-preserving coarsening algorithm. 
+          2- A clustering algorithm is run in parallel onto each small graph and provides several partitions of the initial graph. 
+          3- These partitions are aligned and combined with an optimal transport method to output the final partition. 
+          The PASCO framework is based on two key contributions: a novel global algorithm structure designed to enable parallelization and a fast, empirically validated graph coarsening algorithm that preserves structural properties.
+          We demonstrate the strong performance of PASCO in terms of computational efficiency, structural preservation, and output partition quality, evaluated on both synthetic and real-world graph datasets.
+          Joint work with: R. Vaudaine, T. Vayer, P. Borgnat, R. Gribonval, P. Gonçalves, M. Karsai.
+      </p>
+    </li>
+    <br>
+
     <li>April, 2025 - Paris - <a href="https://sites.google.com/site/semstats/home">Séminaire Parisien de Statistiques</a>.<br>
       <b>Compressive Recovery of Sparse Precision Matrices</b>. <br>
       <button class="showhide abstract24" onclick="switchDisplayByClassName('abstract24')" style="display: block;"><div class="arrow-right"></div>Show Abstract<span class="dots">...</span></button>
