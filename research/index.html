@@ -10,13 +10,22 @@ in neural networks learning. <br>
 More recently, my work lies into the filed of <b>signal processing</b>. I have study various aspects of graph data compression. I also exploit graph structures for applications in epidemiology and neuroscience
 	</p>
 <div class="pagenav">
-  <a class="button button_pagenav" href="#articles">Articles</a>
+  <a class="button button_pagenav" href="#articles">Publications</a>
   <a class="button button_pagenav" href="#talks"   >Talks   </a>
   <a class="button button_pagenav" href="#material"   >Material   </a>
   <a class="button button_pagenav" href="#others"  >Others  </a>
 </div>
 
-  <h2 id="articles" class="title2">Articles</h2>
+
+
+
+
+
+  <h1 id="articles" class="title1">Publications</h2>
+
+
+
+  <h2 class="title2">Preprints</h3>
 
   <table class="normalsize">
     <tr>
@@ -35,70 +44,7 @@ More recently, my work lies into the filed of <b>signal processing</b>. I have s
            During an epidemic outbreak, decision makers crucially need accurate and robust tools to monitor the pathogen propagation. The effective reproduction number, defined as the expected number of secondary infections stemming from one contaminated individual, is a state-of-the-art indicator quantifying the epidemic intensity. Numerous estimators have been developed to precisely track the reproduction number temporal evolution. Yet, COVID-19 pandemic surveillance raised unprecedented challenges due to the poor quality of worldwide reported infection counts. When monitoring the epidemic in different territories simultaneously, leveraging the spatial structure of data significantly enhances both the accuracy and robustness of reproduction number estimates. However, this requires a good estimate of the spatial structure. To tackle this major limitation, the present work proposes a joint estimator of the reproduction number and connectivity structure. The procedure is assessed through intensive numerical simulations on carefully designed synthetic data and illustrated on real COVID-19 spatiotemporal infection counts.
         </p>
     </td>
-    </tr>
-
-    <tr>
-    <td class="nopadding top" width=150>
-    <a href="https://hal.science/hal-05044666/document">
-    <img class="noradius" src="fig/multilevel.JPG" width=150 height=100></a>
-    </td>
-    <td class="nopadding top">
-    <b>A multilevel approach to accelerate the training of Transformers,</b> 2025.<br>
-    With G. Lauga, M. Chaumette, E. Desainte-Maréville and A. Lebeurrier<br>
-    Accepted at <i>GRETSI 2025</i>. <br>
-    [<a href="https://hal.science/hal-05044666/document">HAL</a>]
-    <!-- [<a href="https://arxiv.org/pdf/2311.04673.pdf">arxiv</a>] -->
-        <button class="showhide art_arbstr_6" onclick="switchDisplayByClassName('art_arbstr_6')" style="display: block;"><div class="arrow-right"></div>Show Abstract<span class="dots">...</span></button>
-        <button class="showhide art_arbstr_6" onclick="switchDisplayByClassName('art_arbstr_6')" style="display : none;"><div class="arrow-top"></div>Hide Abstract</button>
-        <p class="abstracttext art_arbstr_6" style="display : none;">
-           In this article, we investigate the potential of multilevel approaches to accelerate the training of transformer architectures. Using an ordinary differential equation (ODE) interpretation of these architectures, we propose an appropriate way of varying the discretization of these ODE Transformers in order to accelerate the training. We validate our approach experimentally by a comparison with the standard training procedure.
-        </p>
-    </td>
-    </tr>
-
-
-    <tr>
-    <td class="nopadding top" width=150>
-    <a href="https://arxiv.org/pdf/2501.12005?">
-    <img class="noradius" src="fig/mixture_ot.svg" width=150 height=100></a>
-    </td>
-    <td class="nopadding top">
-    <b>A note on the relations between mixture models, maximum-likelihood and entropic optimal transport,</b> 2025. <br>
-    With T. Vayer<br>
-    [<a href="https://arxiv.org/pdf/2501.12005?">arxiv</a>]
-    <!-- [<a href="https://arxiv.org/pdf/2311.04673.pdf">arxiv</a>] -->
-        <button class="showhide art_arbstr_5" onclick="switchDisplayByClassName('art_arbstr_5')" style="display: block;"><div class="arrow-right"></div>Show Abstract<span class="dots">...</span></button>
-        <button class="showhide art_arbstr_5" onclick="switchDisplayByClassName('art_arbstr_5')" style="display : none;"><div class="arrow-top"></div>Hide Abstract</button>
-        <p class="abstracttext art_arbstr_5" style="display : none;">
-          This note aims to demonstrate that performing maximum-likelihood estimation for a mixture model is equivalent to minimizing over the parameters an optimal transport problem with entropic regularization. The objective is pedagogical: we seek to present this already known result in a concise and hopefully simple manner. We give an illustration with Gaussian mixture models by showing that the standard EM algorithm is a specific block-coordinate descent on an optimal transport loss.
-        </p>
-    </td>
-    </tr>
-
-    <tr>
-    <td class="nopadding top" width=150>
-    <a href="https://arxiv.org/pdf/2412.13592">
-    <img class="noradius" src="fig/pasco.gif" width=150 height=100></a>
-    </td>
-    <td class="nopadding top">
-    <b>PASCO (PArallel Structured COarsening): an overlay to speed up graph clustering algorithms,</b> 2024. <br>
-    With R. Vaudaine, T. Vayer, P. Borgnat, R. Gribonval, P. Gonçalves, M. Karsai<br>
-    Accepted at <i>ECML 2025</i> (Journal Track) and published in <i>Machine Learning</i>. <br>
-    [<a href="https://rdcu.be/eBZye">Journal</a>]
-    [<a href="https://arxiv.org/pdf/2412.13592">arxiv</a>]
-    <!-- [<a href="https://arxiv.org/pdf/2311.04673.pdf">arxiv</a>] -->
-        <button class="showhide art_arbstr_4" onclick="switchDisplayByClassName('art_arbstr_4')" style="display: block;"><div class="arrow-right"></div>Show Abstract<span class="dots">...</span></button>
-        <button class="showhide art_arbstr_4" onclick="switchDisplayByClassName('art_arbstr_4')" style="display : none;"><div class="arrow-top"></div>Hide Abstract</button>
-        <p class="abstracttext art_arbstr_4" style="display : none;">
-          Clustering the nodes of a graph is a cornerstone of graph analysis and has been extensively studied. However, some popular methods are not suitable for very large graphs: e.g., spectral clustering requires the computation of the spectral decomposition of the Laplacian matrix, which is not applicable for large graphs with a large number of communities. This work introduces PASCO, an overlay that accelerates clustering algorithms. Our method consists of three steps: 
-          1- We compute several independent small graphs representing the input graph by applying an efficient and structure-preserving coarsening algorithm. 
-          2- A clustering algorithm is run in parallel onto each small graph and provides several partitions of the initial graph. 
-          3- These partitions are aligned and combined with an optimal transport method to output the final partition. 
-          The PASCO framework is based on two key contributions: a novel global algorithm structure designed to enable parallelization and a fast, empirically validated graph coarsening algorithm that preserves structural properties.
-          We demonstrate the strong performance of PASCO in terms of computational efficiency, structural preservation, and output partition quality, evaluated on both synthetic and real-world graph datasets.
-        </p>
-    </td>
-    </tr>
+    </tr>  
 
     <tr>
     <td class="nopadding top" width=150>
@@ -122,7 +68,38 @@ More recently, my work lies into the filed of <b>signal processing</b>. I have s
           We compare our approach and graphical lasso on synthetic datasets, demonstrating its favorable performance even when the dataset is compressed.
         </p>
     </td>
-    </tr>
+    </tr>    
+  </table>
+
+
+
+  <h2 class="title2">Journal Articles</h3>
+
+  <table class="normalsize">
+    <tr>
+    <td class="nopadding top" width=150>
+    <a href="https://arxiv.org/pdf/2412.13592">
+    <img class="noradius" src="fig/pasco.gif" width=150 height=100></a>
+    </td>
+    <td class="nopadding top">
+    <b>PASCO (PArallel Structured COarsening): an overlay to speed up graph clustering algorithms,</b> 2025. <br>
+    With R. Vaudaine, T. Vayer, P. Borgnat, R. Gribonval, P. Gonçalves, M. Karsai<br>
+    Published in <i>Machine Learning</i>. <br>
+    [<a href="https://rdcu.be/eBZye">Journal</a>]
+    [<a href="https://arxiv.org/pdf/2412.13592">arxiv</a>]
+    <!-- [<a href="https://arxiv.org/pdf/2311.04673.pdf">arxiv</a>] -->
+        <button class="showhide art_arbstr_4" onclick="switchDisplayByClassName('art_arbstr_4')" style="display: block;"><div class="arrow-right"></div>Show Abstract<span class="dots">...</span></button>
+        <button class="showhide art_arbstr_4" onclick="switchDisplayByClassName('art_arbstr_4')" style="display : none;"><div class="arrow-top"></div>Hide Abstract</button>
+        <p class="abstracttext art_arbstr_4" style="display : none;">
+          Clustering the nodes of a graph is a cornerstone of graph analysis and has been extensively studied. However, some popular methods are not suitable for very large graphs: e.g., spectral clustering requires the computation of the spectral decomposition of the Laplacian matrix, which is not applicable for large graphs with a large number of communities. This work introduces PASCO, an overlay that accelerates clustering algorithms. Our method consists of three steps: 
+          1- We compute several independent small graphs representing the input graph by applying an efficient and structure-preserving coarsening algorithm. 
+          2- A clustering algorithm is run in parallel onto each small graph and provides several partitions of the initial graph. 
+          3- These partitions are aligned and combined with an optimal transport method to output the final partition. 
+          The PASCO framework is based on two key contributions: a novel global algorithm structure designed to enable parallelization and a fast, empirically validated graph coarsening algorithm that preserves structural properties.
+          We demonstrate the strong performance of PASCO in terms of computational efficiency, structural preservation, and output partition quality, evaluated on both synthetic and real-world graph datasets.
+        </p>
+    </td>
+    </tr> 
 
     <tr>
     <td class="nopadding top" width=150>
@@ -145,15 +122,15 @@ More recently, my work lies into the filed of <b>signal processing</b>. I have s
     </td>
     </tr>
 
-			<tr>
-			<td class="nopadding top" width=150>
-			<a href="https://arxiv.org/pdf/2109.13213.pdf">
-			<img class="noradius" src="fig/animated_slow.gif" width=150 height=100></a>
-			</td>
-			<td class="nopadding top">
-			<b>Heat diffusion distance processes: a statistically founded method to analyze graph data sets,</b> 2023. <br>
+      <tr>
+      <td class="nopadding top" width=150>
+      <a href="https://arxiv.org/pdf/2109.13213.pdf">
+      <img class="noradius" src="fig/animated_slow.gif" width=150 height=100></a>
+      </td>
+      <td class="nopadding top">
+      <b>Heat diffusion distance processes: a statistically founded method to analyze graph data sets,</b> 2023. <br>
       Published in <i>J Appl. and Comput. Topology</i> (SI : <i>Data Science on Graphs</i>). <br>
-			[<a href="https://rdcu.be/dctmr">journal</a>] [<a href="https://arxiv.org/pdf/2109.13213.pdf">arxiv</a>]
+      [<a href="https://rdcu.be/dctmr">journal</a>] [<a href="https://arxiv.org/pdf/2109.13213.pdf">arxiv</a>]
           <button class="showhide art_arbstr_1" onclick="switchDisplayByClassName('art_arbstr_1')" style="display: block;"><div class="arrow-right"></div>Show Abstract<span class="dots">...</span></button>
           <button class="showhide art_arbstr_1" onclick="switchDisplayByClassName('art_arbstr_1')" style="display : none;"><div class="arrow-top"></div>Hide Abstract</button>
           <p class="abstracttext art_arbstr_1" style="display : none;">
@@ -165,8 +142,55 @@ More recently, my work lies into the filed of <b>signal processing</b>. I have s
             We design consistent confidence bands around empirical means and consistent two-sample tests, using bootstrap methods.
             Their performances are evaluated by simulations on synthetic data sets.
           </p>
-			</td>
-			</tr>
+      </td>
+      </tr>
+    </table>
+
+
+
+  <h2 class="title2">French Conference Papers</h2>
+
+<table class="normalsize">
+   <tr>
+    <td class="nopadding top" width=150>
+    <a href="https://hal.science/hal-05044666/document">
+    <img class="noradius" src="fig/multilevel.JPG" width=150 height=100></a>
+    </td>
+    <td class="nopadding top">
+    <b>A multilevel approach to accelerate the training of Transformers,</b> 2025.<br>
+    With G. Lauga, M. Chaumette, E. Desainte-Maréville and A. Lebeurrier<br>
+    Accepted at <i>GRETSI 2025</i>. <br>
+    [<a href="https://hal.science/hal-05044666/document">HAL</a>]
+    <!-- [<a href="https://arxiv.org/pdf/2311.04673.pdf">arxiv</a>] -->
+        <button class="showhide art_arbstr_6" onclick="switchDisplayByClassName('art_arbstr_6')" style="display: block;"><div class="arrow-right"></div>Show Abstract<span class="dots">...</span></button>
+        <button class="showhide art_arbstr_6" onclick="switchDisplayByClassName('art_arbstr_6')" style="display : none;"><div class="arrow-top"></div>Hide Abstract</button>
+        <p class="abstracttext art_arbstr_6" style="display : none;">
+           In this article, we investigate the potential of multilevel approaches to accelerate the training of transformer architectures. Using an ordinary differential equation (ODE) interpretation of these architectures, we propose an appropriate way of varying the discretization of these ODE Transformers in order to accelerate the training. We validate our approach experimentally by a comparison with the standard training procedure.
+        </p>
+    </td>
+    </tr>    
+  </table>
+
+  <h2 class="title2">Notes</h2>
+
+  <table class="normalsize">
+    <tr>
+      <td class="nopadding top" width=150>
+      <a href="https://arxiv.org/pdf/2501.12005?">
+      <img class="noradius" src="fig/mixture_ot.svg" width=150 height=100></a>
+      </td>
+      <td class="nopadding top">
+      <b>A note on the relations between mixture models, maximum-likelihood and entropic optimal transport,</b> 2025. <br>
+      With T. Vayer<br>
+      [<a href="https://arxiv.org/pdf/2501.12005?">arxiv</a>]
+      <!-- [<a href="https://arxiv.org/pdf/2311.04673.pdf">arxiv</a>] -->
+          <button class="showhide art_arbstr_5" onclick="switchDisplayByClassName('art_arbstr_5')" style="display: block;"><div class="arrow-right"></div>Show Abstract<span class="dots">...</span></button>
+          <button class="showhide art_arbstr_5" onclick="switchDisplayByClassName('art_arbstr_5')" style="display : none;"><div class="arrow-top"></div>Hide Abstract</button>
+          <p class="abstracttext art_arbstr_5" style="display : none;">
+            This note aims to demonstrate that performing maximum-likelihood estimation for a mixture model is equivalent to minimizing over the parameters an optimal transport problem with entropic regularization. The objective is pedagogical: we seek to present this already known result in a concise and hopefully simple manner. We give an illustration with Gaussian mixture models by showing that the standard EM algorithm is a specific block-coordinate descent on an optimal transport loss.
+          </p>
+      </td>
+    </tr>
   </table>
 
 
@@ -175,19 +199,11 @@ More recently, my work lies into the filed of <b>signal processing</b>. I have s
 
 
 
-  <h2 id="talks" class="title2">Talks</h2>
-  <ul class="normalsize">
-    <li>November, 2025 - Angers, France - <a href="https://math.univ-angers.fr/seminaires/seminaire-de-probabilites-et-statistiques/">Séminaire de probabilités et statistique</a>.<br>
-      <b>Joint reproduction number and spatial connectivity structure estimation via graph sparsity-promoting penalized functional</b>. <br>
-      <button class="showhide abstract26" onclick="switchDisplayByClassName('abstract26')" style="display: block;"><div class="arrow-right"></div>Show Abstract<span class="dots">...</span></button>
-      <button class="showhide abstract26" onclick="switchDisplayByClassName('abstract26')" style="display : none;"><div class="arrow-top"></div>Hide Abstract</button>
-      <p class="abstracttext abstract26" style="display : none;">
-         During an epidemic outbreak, decision makers crucially need accurate and robust tools to monitor the pathogen propagation. The effective reproduction number, defined as the expected number of secondary infections stemming from one contaminated individual, is a state-of-the-art indicator quantifying the epidemic intensity. Numerous estimators have been developed to precisely track the reproduction number temporal evolution. Yet, COVID-19 pandemic surveillance raised unprecedented challenges due to the poor quality of worldwide reported infection counts. When monitoring the epidemic in different territories simultaneously, leveraging the spatial structure of data significantly enhances both the accuracy and robustness of reproduction number estimates. However, this requires a good estimate of the spatial structure. To tackle this major limitation, the present work proposes a joint estimator of the reproduction number and connectivity structure. The procedure is assessed through intensive numerical simulations on carefully designed synthetic data and illustrated on real COVID-19 spatiotemporal infection counts. Joint work with Barbara Pascal. 
-      </p>
-    </li>
-    <br>
+  <h1 id="talks" class="title1">Talks</h2>
 
+  <h2 class="title2">International Conferences</h2>
 
+  <ul class=normalsize">
     <li>September, 2025 - Porto, Portugal - <a href="https://ecmlpkdd.org/2025/">ECML 2025</a>.<br>
       <b>PASCO (PArallel Structured COarsening): an overlay to speed up graph clustering algorithms</b>. <br>
       <button class="showhide abstract25" onclick="switchDisplayByClassName('abstract25')" style="display: block;"><div class="arrow-right"></div>Show Abstract<span class="dots">...</span></button>
@@ -200,6 +216,137 @@ More recently, my work lies into the filed of <b>signal processing</b>. I have s
           The PASCO framework is based on two key contributions: a novel global algorithm structure designed to enable parallelization and a fast, empirically validated graph coarsening algorithm that preserves structural properties.
           We demonstrate the strong performance of PASCO in terms of computational efficiency, structural preservation, and output partition quality, evaluated on both synthetic and real-world graph datasets.
           Joint work with: R. Vaudaine, T. Vayer, P. Borgnat, R. Gribonval, P. Gonçalves, M. Karsai.
+      </p>
+    </li>
+    <br>
+
+    <li>June, 2024 - Copenhagen - <a href="https://popnets.wordpress.com/">Popnets Workshop</a>. <br>
+      <b>Statistical comparison of graph-structured data and its application to distribution shift detection</b>.
+      <button class="showhide abstract17" onclick="switchDisplayByClassName('abstract17')" style="display: block;"><div class="arrow-right"></div>Show Abstract<span class="dots">...</span></button>
+      <button class="showhide abstract17" onclick="switchDisplayByClassName('abstract17')" style="display : none;"><div class="arrow-top"></div>Hide Abstract</button>
+      <p class="abstracttext abstract17" style="display : none;">
+        When working with weighted graphs, one can interpret weights as the thermal conductivity of edges. 
+        Given initial conditions, one can use the way heat diffuses to compare graphs. 
+        Choosing relevant and informative diffusion times is often essential and challenging. 
+        To circumvent this issue, we choose to take into account the whole diffusion process. 
+        We define real-valued processes indexed by [0, T] for some T > 0, representing the comparisons for all diffusion times. 
+        Using tools from topological data analysis, we are able to compare graphs with unknown node correspondence or even graphs with different sizes.
+        In this talk, I will introduce these processes and present their statistical properties. 
+        From these results, we will see how we can construct consistent two-sample tests. 
+        Then, I will present some applications for the detection of distribution shifts in the context of neural networks by using activation graphs.
+      </p>
+    </li>
+    <br>
+
+    <li>January, 2023 - CIRM - <a href="https://conferences.cirm-math.fr/3021.html">Workshop on Random Geometry</a>.<br>
+    <b>Finding Adam in the nearest-neighbor tree</b>.<br>
+      <button class="showhide abstract12" onclick="switchDisplayByClassName('abstract12')" style="display: block;"><div class="arrow-right"></div>Show Abstract<span class="dots">...</span></button>
+      <button class="showhide abstract12" onclick="switchDisplayByClassName('abstract12')" style="display : none;"><div class="arrow-top"></div>Hide Abstract</button>
+      <p class="abstracttext abstract12" style="display : none;">
+        In this talk, I present the problem of finding the root in the online nearest-neighbor tree (NNT) model.  Consider a probability distribution on some metric space.
+        Here we will restrict ourselves to the uniform distribution on the unit circle with the Euclidean distance.
+        The random tree is constructed recursively by linking each new node to its nearest neighbor. <br>
+
+        Assume that we only observe the structure of such a large tree. That is, we only have access to the connectivity and neither the vertex positions in the metric space nor the vertex labels are available.
+        Can we find a set $S$ of vertices with a reasonable size (i.e., independent of the tree size) that contain the root with high probability.
+        I will explain how we can obtain such set by using a notion of centrality, and present the similarities and differences with the uniform random recursive tree (uRRT) model.
+    </p>
+    </li>
+    <br>
+  </ul>
+
+
+
+  <h2 class="title2">French Conferences</h2>
+
+  <ul class="normalsize">
+    <li>May, 2024 - Bordeaux - <a href="https://jds2024.sciencesconf.org/">Journées de Statistiques</a>. <br>
+      <b>Compressive Recovery of Sparse Precision Matrices</b>. - [<a href="slides/lasalle_jds_2024_compressed.pdf">slides</a>] <br>
+      <button class="showhide abstract16" onclick="switchDisplayByClassName('abstract16')" style="display: block;"><div class="arrow-right"></div>Show Abstract<span class="dots">...</span></button>
+      <button class="showhide abstract16" onclick="switchDisplayByClassName('abstract16')" style="display : none;"><div class="arrow-top"></div>Hide Abstract</button>
+      <p class="abstracttext abstract16" style="display : none;">
+        We consider the problem of learning a graph modeling the statistical relations of the \(d\) variables of a dataset with \(n\) samples.
+        Standard approaches amount to searching for a precision matrix representative of a Gaussian graphical model that adequately explains the data.
+        However, most maximum likelihood-based estimators usually require storing the \(d^2\) values of the empirical covariance matrix, which can become prohibitive in a high-dimensional setting. <br>
+        In this talk, we adopt a “compressive” viewpoint and aim to estimate a sparse precision matrix from a sketch of the data, i.e., a low-dimensional vector of size \(m\ll d^2\) carefully designed from the data using nonlinear random features (e.g., rank-one projections).
+        Under certain spectral assumptions, we show that it is possible to recover the precision matrix from a sketch of size \(m=\Omega\left((d+2k)\log(d)\right)\) where \(k\) is the maximal number of edges of the underlying graph.
+        These information-theoretic guarantees are inspired by the compressed sensing theory.
+        We investigate the possibility of achieving practical recovery with an iterative algorithm based on the graphical lasso, viewed as a specific denoiser.
+        We compare our approach and the graphical lasso on synthetic datasets, demonstrating its favorable performance even when the dataset is compressed. <br>
+        Joint work with : Titouan Vayer, Rémi Gribonval and Paulo Gonçalves.
+      </p>
+    </li>
+    <br>
+
+    <li>November, 2023 - ENS de Lyon - <a href="https://gdr-mia.math.cnrs.fr/events/dimreduc/">RT MIA Workshop</a>: Dimension Reduction for Learning and Visualization. <br>
+      <b>Compressive Recovery of Sparse Precision Matrices</b>. <br>
+      <button class="showhide abstract15" onclick="switchDisplayByClassName('abstract15')" style="display: block;"><div class="arrow-right"></div>Show Abstract<span class="dots">...</span></button>
+      <button class="showhide abstract15" onclick="switchDisplayByClassName('abstract15')" style="display : none;"><div class="arrow-top"></div>Hide Abstract</button>
+      <p class="abstracttext abstract15" style="display : none;">
+        We consider the problem of learning a graph modeling the statistical relations of the \(d\) variables of a dataset with \(n\) samples.
+        Standard approaches amount to searching for a precision matrix representative of a Gaussian graphical model that adequately explains the data.
+        However, most maximum likelihood-based estimators usually require storing the \(d^2\) values of the empirical covariance matrix, which can become prohibitive in a high-dimensional setting. <br>
+        In this talk, we adopt a “compressive” viewpoint and aim to estimate a sparse precision matrix from a sketch of the data, i.e., a low-dimensional vector of size \(m\ll d^2\) carefully designed from the data using nonlinear random features (e.g., rank-one projections).
+        Under certain spectral assumptions, we show that it is possible to recover the precision matrix from a sketch of size \(m=\Omega\left((d+2k)\log(d)\right)\) where \(k\) is the maximal number of edges of the underlying graph.
+        These information-theoretic guarantees are inspired by the compressed sensing theory.
+        We investigate the possibility of achieving practical recovery with an iterative algorithm based on the graphical lasso, viewed as a specific denoiser.
+        We compare our approach and the graphical lasso on synthetic datasets, demonstrating its favorable performance even when the dataset is compressed. <br>
+        Joint work with : Titouan Vayer, Rémi Gribonval and Paulo Gonçalves.
+      </p>
+    </li>
+    <br>
+
+    <li>June, 2022 - Lyon - <a href="https://jds22.sciencesconf.org/">Journées de Statistiques</a> de la <a href="https://www.sfds.asso.fr/">SFdS</a>.<br>
+      <b>Analyse statistique de graphes, via des processus de diffusion de la chaleur.</b><br>
+      <button class="showhide abstract10" onclick="switchDisplayByClassName('abstract10')" style="display: block;"><div class="arrow-right"></div>Show Abstract<span class="dots">...</span></button>
+      <button class="showhide abstract10" onclick="switchDisplayByClassName('abstract10')" style="display : none;"><div class="arrow-top"></div>Hide Abstract</button>
+      <p class="abstracttext abstract10" style="display : none;">
+        Ce travail porte sur la comparaison de données de graphes, potentiellement pondérés et de tailles différentes.
+        Lorsqu’on travaille avec des graphes pondérés, on peut interpréter les poids des arêtes comme des conductivités thermiques.
+        Dès lors, on peut comparer les graphes en comparant leur répartition de chaleur après un temps de diffusion t.
+        Ce paramètre d’échelle t doit être minutieusement choisi pour s’assurer des comparaisons pertinentes.
+        A l’opposé de précédents travaux considérant un temps de diffusion fixé arbitrairement ou choisi à partir des données, on propose de prendre en compte tout le processus de diffusion.
+        Pour cela, on définit des processus à valeurs réelles indexés par tous les temps de diffusion dans (0,T), en concaténant les comparaisons faites aux différentes échelles.
+        Dans cet exposé, nous commencerons par présenter ces processus de comparaison de graphes et leurs propriétés statistiques.
+        Puis, nous montrerons comment en dériver des tests à deux échantillons consistants.
+        Nous présenterons quelques applications sur des jeux de données synthétiques et réels. On s’intéressera notamment aux données provenant de graphes d’activations de réseaux de neurones.
+      </p>
+    </li>
+    <br>
+
+    <li>Oct, 2021 - île d'Oléron - <a href="https://jps-2021.sciencesconf.org/">Colloque Jeunes Probabilistes et Statisticiens. </a> <br>
+      <b>Statistical analysis of graph structured data, via heat diffusion processes.</b> - [<a href="slides/2021_10_26_CJPS.pdf">slides</a>]<br>
+      <button class="showhide abstract3" onclick="switchDisplayByClassName('abstract3')" style="display: block;"><div class="arrow-right"></div>Show Abstract<span class="dots">...</span></button>
+      <button class="showhide abstract3" onclick="switchDisplayByClassName('abstract3')" style="display : none;"><div class="arrow-top"></div>Hide Abstract</button>
+      <p class="abstracttext abstract3" style="display : none;">
+        When working with weighted graphs, one can interpret weights as the thermal conductivity of edges. This means that heat diffuses faster along edges with higher weights. Given initial conditions, one can use the way heat diffuses to compare graphs. But choosing a relevant and informative diffusion time is often essential and challenging. To circumvent this issue, we choose to take into account the whole diffusion process. For that, we define real-valued processes indexed by all the diffusion times in [0, T] for some T > 0, namely the Heat Kernel Distance (HKD) process and the Heat Persistence Distance (HPD) process. Borrowing tools from TDA, the HPD process is able to compare graphs without known node correspondence or even graphs with different sizes. In this talk, I will introduce these processes and present their statistical properties. Namely, we proved under mild assumptions that they verify a functional central limit theorem and admit a gaussian approximation. Moreover, I will present potential applications of these processes (the construction of confidence bands and two-sample tests).
+      </p>
+    </li>
+    <br>  
+  
+    <li>Dec, 2021 - Besançon - <a href="https://jmb2021.sciencesconf.org/">Forum des Jeunes Mathématicien.ne.s. </a><br>
+      <b>Statistical analysis of graph structured data, via heat diffusion processes.</b> - [<a href="slides/2021_12_09_FJM.pdf">slides</a>]<br>
+      <button class="showhide abstract4" onclick="switchDisplayByClassName('abstract4')" style="display: block;"><div class="arrow-right"></div>Show Abstract<span class="dots">...</span></button>
+      <button class="showhide abstract4" onclick="switchDisplayByClassName('abstract4')" style="display : none;"><div class="arrow-top"></div>Hide Abstract</button>
+      <p class="abstracttext abstract4" style="display : none;">
+        When working with weighted graphs, one can interpret weights as the thermal conductivity of edges. This means that heat diffuses faster along edges with higher weights. Given initial conditions, one can use the way heat diffuses to compare graphs. But choosing a relevant and informative diffusion time is often essential and challenging. To circumvent this issue, we choose to take into account the whole diffusion process. For that, we define real-valued processes indexed by all the diffusion times in [0, T] for some T > 0, namely the Heat Kernel Distance (HKD) process and the Heat Persistence Distance (HPD) process. Borrowing tools from TDA, the HPD process is able to compare graphs without known node correspondence or even graphs with different sizes. In this talk, I will introduce these processes and present their statistical properties. Namely, we proved under mild assumptions that they verify a functional central limit theorem and admit a gaussian approximation. Moreover, I will present potential applications of these processes (the construction of confidence bands and two-sample tests).
+      </p>
+    </li>
+    <br>
+  </ul>
+
+
+
+
+  <h2 class="title2">Invited Seminars</h2> 
+    
+  <ul class="normalsize">
+    <li>November, 2025 - Angers, France - <a href="https://math.univ-angers.fr/seminaires/seminaire-de-probabilites-et-statistiques/">Séminaire de probabilités et statistique</a>.<br>
+      <b>Joint reproduction number and spatial connectivity structure estimation via graph sparsity-promoting penalized functional</b>. <br>
+      <button class="showhide abstract26" onclick="switchDisplayByClassName('abstract26')" style="display: block;"><div class="arrow-right"></div>Show Abstract<span class="dots">...</span></button>
+      <button class="showhide abstract26" onclick="switchDisplayByClassName('abstract26')" style="display : none;"><div class="arrow-top"></div>Hide Abstract</button>
+      <p class="abstracttext abstract26" style="display : none;">
+         During an epidemic outbreak, decision makers crucially need accurate and robust tools to monitor the pathogen propagation. The effective reproduction number, defined as the expected number of secondary infections stemming from one contaminated individual, is a state-of-the-art indicator quantifying the epidemic intensity. Numerous estimators have been developed to precisely track the reproduction number temporal evolution. Yet, COVID-19 pandemic surveillance raised unprecedented challenges due to the poor quality of worldwide reported infection counts. When monitoring the epidemic in different territories simultaneously, leveraging the spatial structure of data significantly enhances both the accuracy and robustness of reproduction number estimates. However, this requires a good estimate of the spatial structure. To tackle this major limitation, the present work proposes a joint estimator of the reproduction number and connectivity structure. The procedure is assessed through intensive numerical simulations on carefully designed synthetic data and illustrated on real COVID-19 spatiotemporal infection counts. Joint work with Barbara Pascal. 
       </p>
     </li>
     <br>
@@ -332,59 +479,7 @@ More recently, my work lies into the filed of <b>signal processing</b>. I have s
     </li>
     <br>
 
-    <li>June, 2024 - Copenhagen - <a href="https://popnets.wordpress.com/">Popnets Workshop</a>. <br>
-      <b>Statistical comparison of graph-structured data and its application to distribution shift detection</b>.
-      <button class="showhide abstract17" onclick="switchDisplayByClassName('abstract17')" style="display: block;"><div class="arrow-right"></div>Show Abstract<span class="dots">...</span></button>
-      <button class="showhide abstract17" onclick="switchDisplayByClassName('abstract17')" style="display : none;"><div class="arrow-top"></div>Hide Abstract</button>
-      <p class="abstracttext abstract17" style="display : none;">
-        When working with weighted graphs, one can interpret weights as the thermal conductivity of edges. 
-        Given initial conditions, one can use the way heat diffuses to compare graphs. 
-        Choosing relevant and informative diffusion times is often essential and challenging. 
-        To circumvent this issue, we choose to take into account the whole diffusion process. 
-        We define real-valued processes indexed by [0, T] for some T > 0, representing the comparisons for all diffusion times. 
-        Using tools from topological data analysis, we are able to compare graphs with unknown node correspondence or even graphs with different sizes.
-        In this talk, I will introduce these processes and present their statistical properties. 
-        From these results, we will see how we can construct consistent two-sample tests. 
-        Then, I will present some applications for the detection of distribution shifts in the context of neural networks by using activation graphs.
-      </p>
-    </li>
-    <br>
-
-    <li>May, 2024 - Bordeaux - <a href="https://jds2024.sciencesconf.org/">Journées de Statistiques</a>. <br>
-      <b>Compressive Recovery of Sparse Precision Matrices</b>. - [<a href="slides/lasalle_jds_2024_compressed.pdf">slides</a>] <br>
-      <button class="showhide abstract16" onclick="switchDisplayByClassName('abstract16')" style="display: block;"><div class="arrow-right"></div>Show Abstract<span class="dots">...</span></button>
-      <button class="showhide abstract16" onclick="switchDisplayByClassName('abstract16')" style="display : none;"><div class="arrow-top"></div>Hide Abstract</button>
-      <p class="abstracttext abstract16" style="display : none;">
-        We consider the problem of learning a graph modeling the statistical relations of the \(d\) variables of a dataset with \(n\) samples.
-        Standard approaches amount to searching for a precision matrix representative of a Gaussian graphical model that adequately explains the data.
-        However, most maximum likelihood-based estimators usually require storing the \(d^2\) values of the empirical covariance matrix, which can become prohibitive in a high-dimensional setting. <br>
-        In this talk, we adopt a “compressive” viewpoint and aim to estimate a sparse precision matrix from a sketch of the data, i.e., a low-dimensional vector of size \(m\ll d^2\) carefully designed from the data using nonlinear random features (e.g., rank-one projections).
-        Under certain spectral assumptions, we show that it is possible to recover the precision matrix from a sketch of size \(m=\Omega\left((d+2k)\log(d)\right)\) where \(k\) is the maximal number of edges of the underlying graph.
-        These information-theoretic guarantees are inspired by the compressed sensing theory.
-        We investigate the possibility of achieving practical recovery with an iterative algorithm based on the graphical lasso, viewed as a specific denoiser.
-        We compare our approach and the graphical lasso on synthetic datasets, demonstrating its favorable performance even when the dataset is compressed. <br>
-        Joint work with : Titouan Vayer, Rémi Gribonval and Paulo Gonçalves.
-      </p>
-    </li>
-    <br>
-
-  <li>November, 2023 - ENS de Lyon - <a href="https://gdr-mia.math.cnrs.fr/events/dimreduc/">RT MIA Workshop</a>: Dimension Reduction for Learning and Visualization. <br>
-    <b>Compressive Recovery of Sparse Precision Matrices</b>. <br>
-    <button class="showhide abstract15" onclick="switchDisplayByClassName('abstract15')" style="display: block;"><div class="arrow-right"></div>Show Abstract<span class="dots">...</span></button>
-    <button class="showhide abstract15" onclick="switchDisplayByClassName('abstract15')" style="display : none;"><div class="arrow-top"></div>Hide Abstract</button>
-    <p class="abstracttext abstract15" style="display : none;">
-      We consider the problem of learning a graph modeling the statistical relations of the \(d\) variables of a dataset with \(n\) samples.
-      Standard approaches amount to searching for a precision matrix representative of a Gaussian graphical model that adequately explains the data.
-      However, most maximum likelihood-based estimators usually require storing the \(d^2\) values of the empirical covariance matrix, which can become prohibitive in a high-dimensional setting. <br>
-      In this talk, we adopt a “compressive” viewpoint and aim to estimate a sparse precision matrix from a sketch of the data, i.e., a low-dimensional vector of size \(m\ll d^2\) carefully designed from the data using nonlinear random features (e.g., rank-one projections).
-      Under certain spectral assumptions, we show that it is possible to recover the precision matrix from a sketch of size \(m=\Omega\left((d+2k)\log(d)\right)\) where \(k\) is the maximal number of edges of the underlying graph.
-      These information-theoretic guarantees are inspired by the compressed sensing theory.
-      We investigate the possibility of achieving practical recovery with an iterative algorithm based on the graphical lasso, viewed as a specific denoiser.
-      We compare our approach and the graphical lasso on synthetic datasets, demonstrating its favorable performance even when the dataset is compressed. <br>
-      Joint work with : Titouan Vayer, Rémi Gribonval and Paulo Gonçalves.
-    </p>
-  </li>
-  <br>
+  
   <li>May, 2023 - LJK Grenoble - Seminar of the <a href="https://www-ljk.imag.fr/spip.php?article6">DATA department</a>. <br>
     <b>Statistical comparison of graph-structured data and its application to distribution shift detection</b>. <br>
     <button class="showhide abstract14" onclick="switchDisplayByClassName('abstract14')" style="display: block;"><div class="arrow-right"></div>Show Abstract<span class="dots">...</span></button>
@@ -404,21 +499,7 @@ More recently, my work lies into the filed of <b>signal processing</b>. I have s
     </p>
     </li>
     <br>
-  <li>January, 2023 - CIRM - <a href="https://conferences.cirm-math.fr/3021.html">Workshop on Random Geometry</a>.<br>
-    <b>Finding Adam in the nearest-neighbor tree</b>.<br>
-      <button class="showhide abstract12" onclick="switchDisplayByClassName('abstract12')" style="display: block;"><div class="arrow-right"></div>Show Abstract<span class="dots">...</span></button>
-      <button class="showhide abstract12" onclick="switchDisplayByClassName('abstract12')" style="display : none;"><div class="arrow-top"></div>Hide Abstract</button>
-      <p class="abstracttext abstract12" style="display : none;">
-        In this talk, I present the problem of finding the root in the online nearest-neighbor tree (NNT) model.  Consider a probability distribution on some metric space.
-        Here we will restrict ourselves to the uniform distribution on the unit circle with the Euclidean distance.
-        The random tree is constructed recursively by linking each new node to its nearest neighbor. <br>
-
-        Assume that we only observe the structure of such a large tree. That is, we only have access to the connectivity and neither the vertex positions in the metric space nor the vertex labels are available.
-        Can we find a set $S$ of vertices with a reasonable size (i.e., independent of the tree size) that contain the root with high probability.
-        I will explain how we can obtain such set by using a notion of centrality, and present the similarities and differences with the uniform random recursive tree (uRRT) model.
-    </p>
-    </li>
-    <br>
+  
   <li>November, 2022 - Orsay - Working group of the Probability-Statistics team.<br>
   <b>Testing between the stochastic block model and the Erdos-Renyi model</b>. [<a href="https://link.springer.com/content/pdf/10.1007/s00440-014-0576-6.pdf">article</a>].<br>
   With Leonardo Martins-Bianco and <a href="https://www.imo.universite-paris-saclay.fr/~zacharie.naulet/">Zacharie Naulet</a>.<br>
@@ -430,23 +511,7 @@ More recently, my work lies into the filed of <b>signal processing</b>. I have s
   </p>
   </li>
   <br>
-  <li>June, 2022 - Lyon - <a href="https://jds22.sciencesconf.org/">Journées de Statistiques</a> de la <a href="https://www.sfds.asso.fr/">SFdS</a>.<br>
-  <b>Analyse statistique de graphes, via des processus de diffusion de la chaleur.</b><br>
-    <button class="showhide abstract10" onclick="switchDisplayByClassName('abstract10')" style="display: block;"><div class="arrow-right"></div>Show Abstract<span class="dots">...</span></button>
-    <button class="showhide abstract10" onclick="switchDisplayByClassName('abstract10')" style="display : none;"><div class="arrow-top"></div>Hide Abstract</button>
-    <p class="abstracttext abstract10" style="display : none;">
-      Ce travail porte sur la comparaison de données de graphes, potentiellement pondérés et de tailles différentes.
-      Lorsqu’on travaille avec des graphes pondérés, on peut interpréter les poids des arêtes comme des conductivités thermiques.
-      Dès lors, on peut comparer les graphes en comparant leur répartition de chaleur après un temps de diffusion t.
-      Ce paramètre d’échelle t doit être minutieusement choisi pour s’assurer des comparaisons pertinentes.
-      A l’opposé de précédents travaux considérant un temps de diffusion fixé arbitrairement ou choisi à partir des données, on propose de prendre en compte tout le processus de diffusion.
-      Pour cela, on définit des processus à valeurs réelles indexés par tous les temps de diffusion dans (0,T), en concaténant les comparaisons faites aux différentes échelles.
-      Dans cet exposé, nous commencerons par présenter ces processus de comparaison de graphes et leurs propriétés statistiques.
-      Puis, nous montrerons comment en dériver des tests à deux échantillons consistants.
-      Nous présenterons quelques applications sur des jeux de données synthétiques et réels. On s’intéressera notamment aux données provenant de graphes d’activations de réseaux de neurones.
-  </p>
-  </li>
-  <br>
+  
   <li>June, 2022 - Lyon - <a href="https://www.ens-lyon.fr/PHYSIQUE/seminars/machine-learning-and-signal-processing">Machine Learning and Signal Processing Seminar</a>.<br>
   <b>Heat diffusion distance processes for graphs and their application to distribution shift detection.</b><br>
     <button class="showhide abstract9" onclick="switchDisplayByClassName('abstract9')" style="display: block;"><div class="arrow-right"></div>Show Abstract<span class="dots">...</span></button>
@@ -457,7 +522,7 @@ More recently, my work lies into the filed of <b>signal processing</b>. I have s
   </p>
   </li>
   <br>
-  <!-- <li>June, 2022 - Orsay - <a href="https://www.inria.fr/fr/celeste">Celeste</a> seminar.<br>
+  <li>June, 2022 - Orsay - <a href="https://www.inria.fr/fr/celeste">Celeste</a> seminar.<br>
   <b>Heat diffusion distance processes for graphs and their application to distribution shift detection.</b><br>
     <button class="showhide abstract8" onclick="switchDisplayByClassName('abstract8')" style="display: block;"><div class="arrow-right"></div>Show Abstract<span class="dots">...</span></button>
     <button class="showhide abstract8" onclick="switchDisplayByClassName('abstract8')" style="display : none;"><div class="arrow-top"></div>Hide Abstract</button>
@@ -466,7 +531,7 @@ More recently, my work lies into the filed of <b>signal processing</b>. I have s
       In this talk, I will introduce these processes and present their statistical properties. From these results, we will see how we can construct consistent two-sample tests. Then I will present some applications to the detection of distribution shifts in the context of neural networks by using activation graphs.
   </p>
   </li>
-  <br> -->
+  <br>
   <li>May, 2022 - Orsay - Working group of the Probability-Statistics team.<br>
   Presentation of <b>Density estimation from unweighted k-nearest neighbor graphs: a roadmap</b> [<a href="https://proceedings.neurips.cc/paper/2013/file/eae27d77ca20db309e056e3d2dcd7d69-Paper.pdf">article</a>].<br>
   With <a href="https://sites.google.com/view/acontat/">Alice Contat</a> and <a href="https://www.imo.universite-paris-saclay.fr/~curien/index.html">Nicolas Curien</a>.<br>
@@ -498,24 +563,7 @@ Presentation of <b>Identifying the deviator</b> [<a href="https://arxiv.org/abs/
 </p>
 </li>
 <br>
-    <li>Dec, 2021 - Besançon - <a href="https://jmb2021.sciencesconf.org/">Forum des Jeunes Mathématicien.ne.s. </a><br>
-  <b>Statistical analysis of graph structured data, via heat diffusion processes.</b> - [<a href="slides/2021_12_09_FJM.pdf">slides</a>]<br>
-    <button class="showhide abstract4" onclick="switchDisplayByClassName('abstract4')" style="display: block;"><div class="arrow-right"></div>Show Abstract<span class="dots">...</span></button>
-    <button class="showhide abstract4" onclick="switchDisplayByClassName('abstract4')" style="display : none;"><div class="arrow-top"></div>Hide Abstract</button>
-    <p class="abstracttext abstract4" style="display : none;">
-      When working with weighted graphs, one can interpret weights as the thermal conductivity of edges. This means that heat diffuses faster along edges with higher weights. Given initial conditions, one can use the way heat diffuses to compare graphs. But choosing a relevant and informative diffusion time is often essential and challenging. To circumvent this issue, we choose to take into account the whole diffusion process. For that, we define real-valued processes indexed by all the diffusion times in [0, T] for some T > 0, namely the Heat Kernel Distance (HKD) process and the Heat Persistence Distance (HPD) process. Borrowing tools from TDA, the HPD process is able to compare graphs without known node correspondence or even graphs with different sizes. In this talk, I will introduce these processes and present their statistical properties. Namely, we proved under mild assumptions that they verify a functional central limit theorem and admit a gaussian approximation. Moreover, I will present potential applications of these processes (the construction of confidence bands and two-sample tests).
-  </p>
-  </li>
-<br>
-    <li>Oct, 2021 - île d'Oléron - <a href="https://jps-2021.sciencesconf.org/">Colloque Jeunes Probabilistes et Statisticiens. </a> <br>
-  <b>Statistical analysis of graph structured data, via heat diffusion processes.</b> - [<a href="slides/2021_10_26_CJPS.pdf">slides</a>]<br>
-    <button class="showhide abstract3" onclick="switchDisplayByClassName('abstract3')" style="display: block;"><div class="arrow-right"></div>Show Abstract<span class="dots">...</span></button>
-    <button class="showhide abstract3" onclick="switchDisplayByClassName('abstract3')" style="display : none;"><div class="arrow-top"></div>Hide Abstract</button>
-    <p class="abstracttext abstract3" style="display : none;">
-      When working with weighted graphs, one can interpret weights as the thermal conductivity of edges. This means that heat diffuses faster along edges with higher weights. Given initial conditions, one can use the way heat diffuses to compare graphs. But choosing a relevant and informative diffusion time is often essential and challenging. To circumvent this issue, we choose to take into account the whole diffusion process. For that, we define real-valued processes indexed by all the diffusion times in [0, T] for some T > 0, namely the Heat Kernel Distance (HKD) process and the Heat Persistence Distance (HPD) process. Borrowing tools from TDA, the HPD process is able to compare graphs without known node correspondence or even graphs with different sizes. In this talk, I will introduce these processes and present their statistical properties. Namely, we proved under mild assumptions that they verify a functional central limit theorem and admit a gaussian approximation. Moreover, I will present potential applications of these processes (the construction of confidence bands and two-sample tests).
-    </p>
-  </li>
-<br>
+    
     <li>Oct, 2021 - Orsay - Working group of the Probability-Statistics team.<br>
   Presentation of <b>Finding Adam in random growing trees</b> [<a href="https://doi.org/10.1002/rsa.20649">article</a>].<br>
   <button class="showhide abstract2.5" onclick="switchDisplayByClassName('abstract2.5')" style="display: block;"><div class="arrow-right"></div>Show Abstract<span class="dots">...</span></button>
@@ -534,9 +582,10 @@ Presentation of <b>Identifying the deviator</b> [<a href="https://arxiv.org/abs/
         When working with weighted graphs, one can interpret weights as the thermal conductivity of edges. This means that heat diffuses faster along edges with higher weights. Given initial conditions, one can use the way heat diffuses to compare graphs. But choosing a relevant and informative diffusion time is often essential and challenging. To circumvent this issue, we choose to take into account the whole diffusion process. For that, we define real-valued processes indexed by all the diffusion times in [0, T] for some T > 0, namely the Heat Kernel Distance (HKD) process and the Heat Persistence Distance (HPD) process. Borrowing tools from TDA, the HPD process is able to compare graphs without known node correspondence or even graphs with different sizes. In this talk, I will introduce these processes and present their statistical properties. Namely, we proved under mild assumptions that they verify a functional central limit theorem and admit a gaussian approximation. Moreover, I will present potential applications of these processes (the construction of confidence bands and two-sample tests, the study of neural networks through their activation graphs).
       </p>
     </li>
-  <br>
-    <!-- <li>Mar, 2021 - U. Paris-Saclay - <a href="https://www.imo.universite-paris-saclay.fr/en/activities/seminars-events/">vulgarization seminar</a>  <br>
-    <b>Gaussian approximations for random functions.</b> - [<a href="slides/2021_03_17_semdoct.pdf">slides</a>]<br>
+    <br>
+
+    <li>Mar, 2021 - U. Paris-Saclay - <a href="https://www.imo.universite-paris-saclay.fr/en/activities/seminars-events/">vulgarization seminar</a>  <br>
+      <b>Gaussian approximations for random functions.</b> - [<a href="slides/2021_03_17_semdoct.pdf">slides</a>]<br>
       <button class="showhide abstract1" onclick="switchDisplayByClassName('abstract1')" style="display: block;"><div class="arrow-right"></div>Show Abstract<span class="dots">...</span></button>
       <button class="showhide abstract1" onclick="switchDisplayByClassName('abstract1')" style="display : none;"><div class="arrow-top"></div>Hide Abstract</button>
       <p class="abstracttext abstract1" style="display : none;">
@@ -549,18 +598,18 @@ Presentation of <b>Identifying the deviator</b> [<a href="https://arxiv.org/abs/
         as well as Zaitsev's results for the multidimensional case and Koltchinskii's results for general empirical processes.
         The end of this presentation concerns my thesis subject and its link with the gaussian approximation problem for random functions.
       </p>
-    </li> -->
+    </li>
   </ul>
 
-  <h2 id="material" class="title2">Material</h2>
+  <h1 id="material" class="title1">Material</h2>
   <ul class="normalsize">
     <li> My Ph.D. thesis is entitled <b><i>Contributions to statistical analysis of graph-structured data</i></b>. <br>
       You can find the manuscript and the slides of the defense here : [<a href="material/these.pdf">manuscript</a>] [<a href="material/2022_12_05_soutenance.pdf">slides</a>].
     </li>
   </ul>
 
-  <h2 id="others" class="title2">Others</h2>
-  <h3 class="title2"> Editorial activities</h3>
+  <h1 id="others" class="title1">Others</h1>
+  <h2 class="title2"> Editorial activities</h2>
   <ul class="normalsize">
     <li>2025 - Reviewing activity for <a href="https://alea.impa.br/english/index_v22.htm">ALEA</a>.</li>
     <li>2025 - Review for the <a href="http://gretsi.fr/">GRETSI</a> 2025 conference.</li>
@@ -568,7 +617,7 @@ Presentation of <b>Identifying the deviator</b> [<a href="https://arxiv.org/abs/
     <li>2023 - Review for the <a href="http://gretsi.fr/">GRETSI</a> 2025 conference,<br>
         Special session: <i>Graph Learning and Learning with Graphs.</i></li>
   </ul>
-  <h3 class="title2">Awards</h3>
+  <h2 class="title2">Awards</h2>
   <ul class="normalsize">
     <li> Winner of the challenge : <a href="https://challenge-maths.sciencesconf.org/"> Mathématiques et Entreprises </a> 2021, with Olympio Hacquart and <a href="https://vadimlebovici.github.io/">Vadim Lebovici</a>.
       <button class="showhide challenge" onclick="switchDisplayByClassName('challenge')" style="display: block;"><div class="arrow-right"></div>More info<span class="dots">...</span></button>
